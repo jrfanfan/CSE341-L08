@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API rest</title>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link rel="stylesheet" href="/css/styledata.css">
+    <script src="/script/script.js" defer></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    
+
+</head>
+<nav class="nav">
+    <ul>
+        <li id="li1">CRUD</li>
+        <li id="li3" onclick="getData(this)">Data</li>
+        <li id="li4"><a href="/input.html">AddData</a></li>
+        <li id="li5" onclick="updateData(this)">UpdateData</a></li>
+        <li id="li6" onclick="deleteData(this)">DeleteData</a></li>
+        <li id="li2"><a href="/logout">Logout</a></li>
+        
+        
+    </ul>
+    
+</nav>
+<body>
+    <h4> <a href="/api-docs">View my API docs</a></h4>
+    <div>
+        <p id="data0"></p>
+        <p id="data1"></p>
+        <p id="data2"></p>
+        <p id="data3"></p>
+
+    </div>
+
+</body>
+
+</html>
